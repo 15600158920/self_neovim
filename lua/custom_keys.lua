@@ -17,7 +17,8 @@ return {
 
 	-- View other usage of the plugin: https://github.com/nvim-neo-tree/neo-tree.nvim
 	-- Use the shortcut to open or close file explorer.
-	file_explorer = "<F9>",
+	-- file_explorer = "<F9>",
+	file_explorer = "<leader><Tab>",
 	-- Use the shortcut to open or close git status on a float window.
 	git_status = "<F8>",
 
