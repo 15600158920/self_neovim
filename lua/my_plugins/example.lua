@@ -1,10 +1,12 @@
 return {
-	-- Your Plugin1
-	--  {
-	--      'hardhacker/plugin1',
-	--      config = function() ... end
-	--  },
 
-	-- Your Plugin2
-	--  {'hardhacker/plugin2'},
+-- install without yarn or npm
+{
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function() vim.fn["mkdp#util#install"]() end,
+}
+
+
 }

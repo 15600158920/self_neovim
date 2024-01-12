@@ -75,7 +75,6 @@ vim.opt.wildignore =
 --       au InsertLeave * set cursorline
 --   augroup END
 -- ]])
-
 vim.cmd([[
     set noeb
     set t_Co=256

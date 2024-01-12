@@ -44,8 +44,8 @@ pcall(require, "custom")
 --}
 -- 使用系统剪切板作为默认寄存器
 vim.opt.clipboard = "unnamed"
--- neovide 设置 
-vim.g.neovide_scale_factor = 0.8
-vim.g.neovide_background_alpha = 0.5
 
+-- neovide 设置 
+vim.g.neovide_scale_factor = 0.8 -- neovide 的缩放因子，
+vim.g.neovide_background_alpha = 0.5
 
